@@ -1,0 +1,56 @@
+import java.util.Scanner;
+
+public class andonSayac {
+
+    public static void main(String[]args){
+    System.out.print("Hurda Sayacına Hoşgeldiniz.");
+    Scanner scan = new Scanner(System.in);
+    System.out.print("Kimya Lab. 1. için 1'e Kimya Lab. 2. için 2'ye Kimya Lab. 3. için 3'e Kimya Lab. 1. için 4'e basınız.");
+    int a=scan.nextInt();
+    switch (a) {
+        case 1:
+            System.out.println("Kimya Lab. 1 hurda sayıları giriniz.");
+            for(int j=1; j<13 ; j++){
+            System.out.print(j + "." + " aya ait bilgileri giriniz");
+            int b=scan.nextInt();
+            int birinci=0;
+            birinci=birinci+b;
+                System.out.println("Kimya Lab. 1 yıllık hurda sayısı = ");
+                System.out.print(birinci);
+            }
+case 2:
+            System.out.print("Kimya Lab. 2 hurda sayıları giriniz.");
+            int ay = 12;
+            while (ay>0){
+
+                System.out.print(ay + "." + " aya ait bilgileri giriniz");
+                int c=scan.nextInt();
+                int ikinci=0;
+                ikinci=ikinci+c;
+                System.out.println("Kimya Lab. 2 yıllık hurda sayısı = ");
+                System.out.print(ikinci);
+            }
+
+        case 3:
+            System.out.print("Kimya Lab. 3 hurda sayıları giriniz.");
+            for(int l=1; l<13 ; l++){
+                System.out.print(l + "." + " aya ait bilgileri giriniz");
+                int d=scan.nextInt();
+                int ücüncü=0;
+                ücüncü= d + ücüncü;
+                System.out.println("Kimya Lab. 3 yıllık hurda sayısı = ");
+                System.out.print(ücüncü);
+            }
+     case 4:
+            System.out.print("Kimya Lab. 4 hurda sayıları giriniz.");
+            for(int m=1; m<13 ; m++){
+                System.out.print(m + "." + " aya ait bilgileri giriniz");
+                int e=scan.nextInt();
+                int dördüncü=0;
+                dördüncü=dördüncü+m;
+                System.out.println("Kimya Lab. 4 yıllık hurda sayısı = ");
+                System.out.print(dördüncü);
+            }
+
+
+}}}
